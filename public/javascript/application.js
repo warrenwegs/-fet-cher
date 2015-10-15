@@ -3,7 +3,7 @@ $(document).ready(function() {
   function getPictures(hashtag) {
     $.ajax({
       method: 'GET',
-      url: 'https://api.instagram.com/v1/tags/' + hashtag +'/media/recent?client_id=bba99ee5a512497ea2ba7a18bb2bcd92&',
+      url: 'https://api.instagram.com/v1/tags/' + hashtag +'/media/recent?client_id=??&',
       dataType: 'jsonp',
       jsonp: 'callback',
       success: function( data ) {
